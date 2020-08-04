@@ -1,0 +1,146 @@
+body{
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 60px;
+  marign-top:0;
+  font-family:'Sacramento', cursive;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border: dotted #EAF3F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-align: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.firstBox{
+  background-color: #b2ebf2;
+  height: 700px;
+  
+}
+
+.insideFirst{
+  position: relative;
+  top: 100px;
+  bottom: 10px
+}
+
+.cloudFirst{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.cloudSecond{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.middleBox{
+  margin:100px 0;
+}
+
+.intro{
+  width: 30%;
+  position: relative;
+  left: 475px;
+}
+.skill-row{
+  width: 50%;
+  margin:auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.myImage{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.giphy{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies{
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bottomBox{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
